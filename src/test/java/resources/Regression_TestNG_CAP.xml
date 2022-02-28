@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PD Automation Test Suite" thread-count="2">
+
+    <listeners>
+        <listener class-name="utilities.TestFramework_Initializer"/>
+    </listeners>
+
+    <test name="Regression Tests / Pay Plan / Rate Mode / PODS DSF">
+
+        <classes>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_19"/>
+            <!--<class name="testsuite.CAP.Smoke_Scenario_CAP_001"/>
+            <class name="testsuite.CAP.Smoke_Scenario_CAP_003"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_01"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_02"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_03"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_04"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_05"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_06"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_07"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_10"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_11"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_14"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_16"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_17"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_18"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_19"/>
+            <class name="testsuite.CAP.Regression_Scenario_CAP_20"/>-->
+        </classes>
+
+    </test>
+
+</suite>

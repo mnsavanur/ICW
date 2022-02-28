@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Test - XML Comparison" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="utilities.TestFramework_Initializer"/>
+    </listeners>
+    <test name="XML Comparison">
+        <classes>
+            <class name="testsuite.XML_Comparison">
+            </class>
+        </classes>
+    </test>
+</suite>

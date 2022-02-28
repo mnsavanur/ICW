@@ -1,0 +1,8 @@
+#**********************************************************************************
+# QA Configuration Settings
+#**********************************************************************************
+applicationURL = https://policy-decisions-cmpdev.icwgrp.com/PDRPages
+serverRepositoryPathForQuotes = \\\\\\\\ps-fileshare-CMPdev.icwgrp.com\\\\Repository\\\\Quotes
+serverRepositoryPathForPolicies = \\\\\\\\ps-fileshare-CMPdev.icwgrp.com\\\\Repository\\\\Policies
+sharedDrivePathForQuotes = \\\\\\\\sancfs001\\\\QA-LT\\\\Deliverables\\\\WC Policy Decision Evolution\\\\Automation_Test\\\\quote
+sharedDrivePathForPolicies = \\\\\\\\sancfs001\\\\QA-LT\\\\Deliverables\\\\WC Policy Decision Evolution\\\\Automation_Test\\\\policy

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CMP Automation Test Suite" thread-count="2">
+
+    <listeners>
+        <listener class-name="utilities.TestFramework_Initializer"/>
+    </listeners>
+
+    <test name="Regression Tests / Smoke Tests">
+
+        <classes>
+            <class name="testsuite.CP.Regression_Scenario_CP_01"/>
+        </classes>
+
+    </test>
+</suite>

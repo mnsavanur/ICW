@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PD Automation Test Suite" thread-count="2">
+
+    <listeners>
+        <listener class-name="utilities.TestFramework_Initializer"/>
+    </listeners>
+
+    <test name="Regression Tests / Pay Plan / Rate Mode / PODS DSF">
+
+        <classes>
+
+            <class name="testsuite.CP.Smoke_Scenario_CP_01"/>
+            <!--    <class name="testsuite.CAP.Smoke_Scenario_CAP_001"/>
+                   <class name="testsuite.CAP.Smoke_Scenario_CAP_003"/>
+                      <class name="testsuite.CP.Smoke_Scenario_CP_01"/>
+                      <class name="testsuite.CP.Smoke_Scenario_CP_02"/>
+                      <class name="testsuite.GL.Smoke_Scenario_GL_001"/>
+                      <class name="testsuite.GL.Smoke_Scenario_GL_001"/>
+                      <class name = "testsuite.Regression_Scenario_001"/>
+                       <class name = "testsuite.Regression_Scenario_002"/>
+                       <class name = "testsuite.Regression_Scenario_003"/>
+                     <class name = "testsuite.Regression_Scenario_004_A"/>
+                    <class name = "testsuite.Regression_Scenario_004_B"/>
+                     <class name = "testsuite.Regression_Scenario_005"/>
+                      <class name = "testsuite.Regression_Scenario_006"/>
+                      <class name = "testsuite.Regression_Scenario_007"/>
+                      <class name = "testsuite.Regression_Scenario_008"/>
+                      <class name = "testsuite.Regression_Scenario_009_A"/>
+                     <class name = "testsuite.Regression_Scenario_009_B"/>
+                  <class name = "testsuite.Regression_Scenario_010"/>
+                   <class name = "testsuite.Regression_Scenario_011"/>
+
+                  <class name = "testsuite.Regression_Scenario_PayPlan_001"/>
+                   <class name = "testsuite.Regression_Scenario_PayPlan_002"/>
+                   <class name = "testsuite.Regression_Scenario_PayPlan_003"/>
+                   <class name = "testsuite.Regression_Scenario_PayPlan_004"/>
+                   <class name = "testsuite.Regression_Scenario_PayPlan_005"/>
+                   <class name = "testsuite.Regression_Scenario_PayPlan_006"/>
+                   <class name = "testsuite.Regression_Scenario_PayPlan_007"/>
+
+                   <class name = "testsuite.Regression_Scenario_Rate_Mode_Test"/>
+
+                   <class name = "testsuite.PayPlan_Standalone"/>
+                   <class name = "testsuite.PayPlan_Standalone_Calculations"/>
+
+                   <class name = "testsuite.Regression_Scenario_PD_PODS_DSF_001"/>
+                   <class name = "testsuite.Regression_Scenario_PD_PODS_DSF_002"/>
+                   <class name = "testsuite.Regression_Scenario_PD_PODS_DSF_003"/>
+
+                   <class name = "testsuite.PROD_TestCase_To_Add_Form_In_PCNM"/>
+          -->
+
+        </classes>
+
+    </test>
+
+</suite>

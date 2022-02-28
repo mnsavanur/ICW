@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PD Automation Test Suite" thread-count="2">
+
+    <listeners>
+        <listener class-name="utilities.TestFramework_Initializer"/>
+    </listeners>
+
+    <test name="Regression Tests / Pay Plan / Rate Mode / PODS DSF">
+
+        <classes>
+            <class name="testsuite.GL.Regression_Scenario_GL_003"/>
+
+        </classes>
+
+    </test>
+
+</suite>
